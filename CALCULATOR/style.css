@@ -1,0 +1,47 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    box-sizing: border-box ;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+.calculator{
+    border: 10px solid #717377;
+    padding: 20px;
+    border-radius: 15px;
+    background: white;
+}
+input{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    margin: 10px 0px 20px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    font-size: 35px;
+    text-align: right;
+    color:aliceblue;
+}
+
+button{
+    border: none;
+    width: 80px;
+    padding: 20px;
+    margin: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: medium;
+}
+.Enterbutton{
+    width: 255px;
+    
+
+}
